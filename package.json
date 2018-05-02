@@ -4,7 +4,8 @@
   "description": "\"mySQL plus Handlebars app\"",
   "main": "main.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
