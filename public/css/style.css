@@ -1,0 +1,72 @@
+html{
+   background: #f15a5a;
+}
+body{
+   max-width: 960px;
+   margin: auto;
+   text-align: center;
+}
+h2{
+   margin: 1rem;
+   font-size: 24px;
+   color: rgb(199, 198, 198);
+}
+
+#header{
+   display: flex;
+   max-height: 240px;
+   background: black;
+   align-content: center;
+   margin-bottom: 2rem;
+}
+#head-img{
+   height: 240px;
+   margin: auto;
+}
+
+.devour-btn, #add-item-btn{
+   background: black;
+   color: white;
+   font-size: 16px;
+   border: none;
+   padding: 1rem;
+   margin: 3px;
+}
+#add-item-btn:hover{
+   background: teal;
+}
+.devour-btn:hover{
+   background: teal;
+}
+
+.devoured-item{
+   font-size: 18px;
+   display: inline-block;
+   padding: 1rem;
+   margin: 3px;
+   background: rgb(160, 159, 159);
+}
+
+#input{
+   margin: 15px;
+}
+
+#add-item-tx, #add-item-btn{
+   padding: 1rem;
+   font-size: 16px;
+}
+
+#add-item-tx{
+   border: none;
+   outline: none;
+}
+
+#add-item-tx:focus{
+   background: teal;
+   color: white;
+}
+
+#container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}

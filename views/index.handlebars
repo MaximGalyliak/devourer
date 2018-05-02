@@ -1,0 +1,31 @@
+<header id="header">
+   <img src="img/packman.gif" id="head-img">
+</header>
+
+<form id = 'input'>
+   <h2>Add item to devour</h2>
+   <input type="text" id="add-item-tx" required>
+   <input type="submit" id="add-item-btn">
+</form>
+
+<div id='container'>
+
+   <div id='column-one'>
+      <h2>Can be devoured</h2>
+      <ul>
+         {{#each allitems}} {{#unless devoured}}
+         <button id="{{{id}}} " class="devour-btn"> {{{name}}} </button>
+         {{/unless}} {{/each}}
+      </ul>
+   </div>
+
+   <div id='column-two'>
+      <h2>Already devoured</h2>
+      <ul>
+         {{#each allitems}} {{#if devoured}}
+         <li class="devoured-item">{{{name}}}</li>
+         {{/if}} {{/each}}
+      </ul>
+   </div>
+
+</div>

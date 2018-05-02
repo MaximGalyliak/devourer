@@ -1,0 +1,30 @@
+{
+  "name": "devourer",
+  "version": "1.0.0",
+  "description": "\"mySQL plus Handlebars app\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximGalyliak/devourer.git"
+  },
+  "keywords": [
+    "mySQL",
+    "Handlebars",
+    "Fullstack"
+  ],
+  "author": "MaximG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximGalyliak/devourer/issues"
+  },
+  "homepage": "https://github.com/MaximGalyliak/devourer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0"
+  }
+}
